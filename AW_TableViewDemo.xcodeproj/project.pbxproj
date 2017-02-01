@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049E71D81E3BC8F60004D832 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E71D71E3BC8F60004D832 /* Team.swift */; };
+		049E71DE1E3BD5CB0004D832 /* MemberHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E71DD1E3BD5CB0004D832 /* MemberHeaderController.swift */; };
+		049E71E01E3BD5E00004D832 /* MemberArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E71DF1E3BD5E00004D832 /* MemberArticleController.swift */; };
+		049E71E21E3BD7B90004D832 /* MemberDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E71E11E3BD7B90004D832 /* MemberDetailInterfaceController.swift */; };
+		049E71E41E3BE2570004D832 /* TeamHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E71E31E3BE2570004D832 /* TeamHeaderController.swift */; };
+		049E71E61E3C93140004D832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E71E51E3C93140004D832 /* Assets.xcassets */; };
 		04ABEFF31E391814004B3FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABEFF21E391814004B3FE9 /* AppDelegate.swift */; };
 		04ABEFF51E391814004B3FE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABEFF41E391814004B3FE9 /* ViewController.swift */; };
 		04ABEFF81E391814004B3FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABEFF61E391814004B3FE9 /* Main.storyboard */; };
@@ -14,11 +20,12 @@
 		04ABEFFD1E391814004B3FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABEFFB1E391814004B3FE9 /* LaunchScreen.storyboard */; };
 		04ABF0021E391814004B3FE9 /* AW_TableViewDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04ABF0011E391814004B3FE9 /* AW_TableViewDemo WatchKit App.app */; };
 		04ABF0081E391814004B3FE9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABF0061E391814004B3FE9 /* Interface.storyboard */; };
-		04ABF00A1E391814004B3FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ABF0091E391814004B3FE9 /* Assets.xcassets */; };
 		04ABF0111E391815004B3FE9 /* AW_TableViewDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04ABF0101E391815004B3FE9 /* AW_TableViewDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04ABF0161E391815004B3FE9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF0151E391815004B3FE9 /* InterfaceController.swift */; };
 		04ABF0181E391815004B3FE9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF0171E391815004B3FE9 /* ExtensionDelegate.swift */; };
 		04ABF01A1E391815004B3FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ABF0191E391815004B3FE9 /* Assets.xcassets */; };
+		04ABF02A1E391FD9004B3FE9 /* MemberRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF0291E391FD9004B3FE9 /* MemberRowController.swift */; };
+		04ABF02C1E392A5E004B3FE9 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABF02B1E392A5E004B3FE9 /* Member.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +71,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		049E71D71E3BC8F60004D832 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		049E71DD1E3BD5CB0004D832 /* MemberHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberHeaderController.swift; sourceTree = "<group>"; };
+		049E71DF1E3BD5E00004D832 /* MemberArticleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberArticleController.swift; sourceTree = "<group>"; };
+		049E71E11E3BD7B90004D832 /* MemberDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberDetailInterfaceController.swift; sourceTree = "<group>"; };
+		049E71E31E3BE2570004D832 /* TeamHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamHeaderController.swift; sourceTree = "<group>"; };
+		049E71E51E3C93140004D832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ABEFEF1E391814004B3FE9 /* AW_TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AW_TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ABEFF21E391814004B3FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ABEFF41E391814004B3FE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,13 +86,14 @@
 		04ABEFFE1E391814004B3FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04ABF0011E391814004B3FE9 /* AW_TableViewDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AW_TableViewDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ABF0071E391814004B3FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		04ABF0091E391814004B3FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ABF00B1E391814004B3FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04ABF0101E391815004B3FE9 /* AW_TableViewDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AW_TableViewDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ABF0151E391815004B3FE9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		04ABF0171E391815004B3FE9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		04ABF0191E391815004B3FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ABF01B1E391815004B3FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ABF0291E391FD9004B3FE9 /* MemberRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberRowController.swift; sourceTree = "<group>"; };
+		04ABF02B1E392A5E004B3FE9 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				04ABF0061E391814004B3FE9 /* Interface.storyboard */,
-				04ABF0091E391814004B3FE9 /* Assets.xcassets */,
+				049E71E51E3C93140004D832 /* Assets.xcassets */,
 				04ABF00B1E391814004B3FE9 /* Info.plist */,
 			);
 			path = "AW_TableViewDemo WatchKit App";
@@ -150,6 +164,13 @@
 				04ABF0171E391815004B3FE9 /* ExtensionDelegate.swift */,
 				04ABF0191E391815004B3FE9 /* Assets.xcassets */,
 				04ABF01B1E391815004B3FE9 /* Info.plist */,
+				04ABF0291E391FD9004B3FE9 /* MemberRowController.swift */,
+				04ABF02B1E392A5E004B3FE9 /* Member.swift */,
+				049E71D71E3BC8F60004D832 /* Team.swift */,
+				049E71DD1E3BD5CB0004D832 /* MemberHeaderController.swift */,
+				049E71DF1E3BD5E00004D832 /* MemberArticleController.swift */,
+				049E71E11E3BD7B90004D832 /* MemberDetailInterfaceController.swift */,
+				049E71E31E3BE2570004D832 /* TeamHeaderController.swift */,
 			);
 			path = "AW_TableViewDemo WatchKit Extension";
 			sourceTree = "<group>";
@@ -269,7 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04ABF00A1E391814004B3FE9 /* Assets.xcassets in Resources */,
+				049E71E61E3C93140004D832 /* Assets.xcassets in Resources */,
 				04ABF0081E391814004B3FE9 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049E71E21E3BD7B90004D832 /* MemberDetailInterfaceController.swift in Sources */,
 				04ABF0181E391815004B3FE9 /* ExtensionDelegate.swift in Sources */,
+				049E71E01E3BD5E00004D832 /* MemberArticleController.swift in Sources */,
+				04ABF02A1E391FD9004B3FE9 /* MemberRowController.swift in Sources */,
 				04ABF0161E391815004B3FE9 /* InterfaceController.swift in Sources */,
+				049E71D81E3BC8F60004D832 /* Team.swift in Sources */,
+				04ABF02C1E392A5E004B3FE9 /* Member.swift in Sources */,
+				049E71DE1E3BD5CB0004D832 /* MemberHeaderController.swift in Sources */,
+				049E71E41E3BE2570004D832 /* TeamHeaderController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +574,7 @@
 				04ABF0201E391815004B3FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ABF0221E391815004B3FE9 /* Build configuration list for PBXNativeTarget "AW_TableViewDemo WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +583,7 @@
 				04ABF0241E391815004B3FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ABF0261E391815004B3FE9 /* Build configuration list for PBXNativeTarget "AW_TableViewDemo" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +592,7 @@
 				04ABF0281E391815004B3FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

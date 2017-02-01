@@ -1,15 +1,101 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Cocoa-beans-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller title="Cocoa-beans" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AW_TableViewDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="hS2-yT-wfu">
+                            <items>
+                                <tableRow identifier="MemberRowType" id="giY-Gs-zNZ" customClass="MemberRowController" customModule="AW_TableViewDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="agD-wf-SnA">
+                                        <items>
+                                            <label alignment="left" text="Label" numberOfLines="0" id="4cP-XH-SwL"/>
+                                            <label alignment="left" text="Label" id="z23-CT-Rca">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="nameLbl" destination="4cP-XH-SwL" id="1et-dS-Ln3"/>
+                                        <outlet property="skillsLbl" destination="z23-CT-Rca" id="cf6-Rh-wTx"/>
+                                        <segue destination="Tue-zI-AHk" kind="push" id="fs3-fi-35g"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="TeamHeaderType" selectable="NO" id="yh5-GX-BW9" customClass="TeamHeaderController" customModule="AW_TableViewDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="pmF-nw-D9j">
+                                        <items>
+                                            <imageView width="40" height="40" alignment="left" verticalAlignment="center" image="iOS" id="jcH-mx-f95"/>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="VHy-Xp-UAp">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="jcH-mx-f95" id="GzS-3O-fRK"/>
+                                        <outlet property="label" destination="VHy-Xp-UAp" id="bTd-cw-uzG"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="hS2-yT-wfu" id="vkY-Oy-l7z"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="12" y="37"/>
+        </scene>
+        <!--Member Detail Interface Controller-->
+        <scene sceneID="cIb-fG-Dte">
+            <objects>
+                <controller id="Tue-zI-AHk" customClass="MemberDetailInterfaceController" customModule="AW_TableViewDemo_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Ydj-4n-QIN">
+                            <items>
+                                <tableRow identifier="MemberHeaderType" selectable="NO" id="AA1-hB-Ur9" customClass="MemberHeaderController" customModule="AW_TableViewDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="YQQ-ag-kTF">
+                                        <items>
+                                            <label alignment="left" text="Label" numberOfLines="0" id="6f9-Hv-rux">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="nameLbl" destination="6f9-Hv-rux" id="O1W-OE-ehn"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="MemberArticleType" selectable="NO" id="cKy-xg-JxP" customClass="MemberArticleController" customModule="AW_TableViewDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="Znr-fb-meX">
+                                        <items>
+                                            <label alignment="left" text="Label" numberOfLines="0" id="qeX-K0-62x"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="articleLbl" destination="qeX-K0-62x" id="cmW-Xy-vfj"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Ydj-4n-QIN" id="krV-6G-Y28"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="266" y="37"/>
         </scene>
     </scenes>
 </document>
